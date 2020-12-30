@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArgumentIsEmpty" xml:space="preserve">
+    <value>Строковый аргумент '{argumentName}' не может быть пустым.</value>
+  </data>
+  <data name="ArgumentPropertyIsEmpty" xml:space="preserve">
+    <value>Значение строкового свойства '{property}' аргумента '{argument}' не может быть пустым.</value>
+  </data>
+  <data name="ArgumentPropertyNull" xml:space="preserve">
+    <value>Значение свойства '{property}' аргумента '{argument}' не может быть неопределенным.</value>
+  </data>
+  <data name="ObjectNull" xml:space="preserve">
+    <value>Ошибка состояния приложения. '{elementName}' не может быть неопределенным.</value>
+  </data>
+  <data name="ObjectPropertyNull" xml:space="preserve">
+    <value>Ошибка состояния приложения. Значение свойства '{property}' объекта '{elementName}' не может быть неопределенным.</value>
+  </data>
+  <data name="StringIsEmpty" xml:space="preserve">
+    <value>Ошибка состояния приложения. Строка '{elementName}' не может быть пустой.</value>
+  </data>
+  <data name="StringPropertyIsEmpty" xml:space="preserve">
+    <value>Ошибка состояния приложения. Значение строкового свойства '{property}' объекта '{elementName}' не может быть пустым.</value>
+  </data>
+  <data name="StringIsNull" xml:space="preserve">
+    <value>Ошибка состояния приложения. Строка '{elementName}' не может быть неопределенной.</value>
+  </data>
+  <data name="StringPropertyIsNull" xml:space="preserve">
+    <value>Ошибка состояния приложения. Значение строкового свойства '{property}' объекта '{elementName}' не может быть неопределенным.</value>
+  </data>
+</root>

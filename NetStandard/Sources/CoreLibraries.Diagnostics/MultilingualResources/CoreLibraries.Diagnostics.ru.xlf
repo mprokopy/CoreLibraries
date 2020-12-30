@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="ru" original="CORELIBRARIES.DIAGNOSTICS/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="CORELIBRARIES.DIAGNOSTICS/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="ArgumentIsEmpty" translate="yes" xml:space="preserve">
+          <source>The string argument '{argumentName}' cannot be empty.</source>
+          <target state="final">Строковый аргумент '{argumentName}' не может быть пустым.</target>
+        </trans-unit>
+        <trans-unit id="ArgumentPropertyIsEmpty" translate="yes" xml:space="preserve">
+          <source>The string property '{property}' of the argument '{argument}' cannot be empty.</source>
+          <target state="final">Значение строкового свойства '{property}' аргумента '{argument}' не может быть пустым.</target>
+        </trans-unit>
+        <trans-unit id="ArgumentPropertyNull" translate="yes" xml:space="preserve">
+          <source>The property '{property}' of the argument '{argument}' cannot be null.</source>
+          <target state="final">Значение свойства '{property}' аргумента '{argument}' не может быть неопределенным.</target>
+        </trans-unit>
+        <trans-unit id="ObjectNull" translate="yes" xml:space="preserve">
+          <source>Application state error. '{elementName}' cannot be null.</source>
+          <target state="final">Ошибка состояния приложения. '{elementName}' не может быть неопределенным.</target>
+        </trans-unit>
+        <trans-unit id="ObjectPropertyNull" translate="yes" xml:space="preserve">
+          <source>Application state error. The property '{property}' of the object '{elementName}' cannot be null.</source>
+          <target state="final">Ошибка состояния приложения. Значение свойства '{property}' объекта '{elementName}' не может быть неопределенным.</target>
+        </trans-unit>
+        <trans-unit id="StringIsEmpty" translate="yes" xml:space="preserve">
+          <source>Application state error. The string '{elementName}' cannot be empty.</source>
+          <target state="final">Ошибка состояния приложения. Строка '{elementName}' не может быть пустой.</target>
+        </trans-unit>
+        <trans-unit id="StringPropertyIsEmpty" translate="yes" xml:space="preserve">
+          <source>Application state error. The string property '{property}' of the '{elementName}' cannot be empty.</source>
+          <target state="final">Ошибка состояния приложения. Значение строкового свойства '{property}' объекта '{elementName}' не может быть пустым.</target>
+        </trans-unit>
+        <trans-unit id="StringIsNull" translate="yes" xml:space="preserve">
+          <source>Application state error. The string '{elementName}' cannot be null.</source>
+          <target state="final">Ошибка состояния приложения. Строка '{elementName}' не может быть неопределенной.</target>
+        </trans-unit>
+        <trans-unit id="StringPropertyIsNull" translate="yes" xml:space="preserve">
+          <source>Application state error. The string property '{property}' of the '{elementName}' cannot be null.</source>
+          <target state="final">Ошибка состояния приложения. Значение строкового свойства '{property}' объекта '{elementName}' не может быть неопределенным.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

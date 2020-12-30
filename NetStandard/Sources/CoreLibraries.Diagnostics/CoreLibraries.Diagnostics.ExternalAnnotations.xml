@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="CoreLibraries.Diagnostics">
+  <member name="T:CoreLibraries.Diagnostics.Check">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Check.NotEmpty(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>argumentValue:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="argumentName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Check.NotEmpty(System.String,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>argumentPropertyValue:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="argumentName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="argumentPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Check.NotNull``1(``0,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>argumentValue:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="argumentValue">
+      <attribute ctor="M:JetBrains.Annotations.NoEnumerationAttribute.#ctor" />
+    </parameter>
+    <parameter name="argumentName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Check.NotNull``1(``0,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>argumentPropertyValue:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="argumentPropertyValue">
+      <attribute ctor="M:JetBrains.Annotations.NoEnumerationAttribute.#ctor" />
+    </parameter>
+    <parameter name="argumentName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="argumentPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Check.NotNull``1(System.Nullable{``0},System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>argumentValue:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="argumentName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Check.NotNull``1(System.Nullable{``0},System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>argumentPropertyValue:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="argumentName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="argumentPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="T:CoreLibraries.Diagnostics.Validate">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Validate.NotEmpty(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>value:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="objectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Validate.NotEmpty(System.String,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>value:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="objectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Validate.NotNull``1(``0,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>value:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NoEnumerationAttribute.#ctor" />
+    </parameter>
+    <parameter name="objectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Validate.NotNull``1(``0,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>value:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NoEnumerationAttribute.#ctor" />
+    </parameter>
+    <parameter name="objectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Validate.NotNull``1(System.Nullable{``0},System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>value:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="objectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CoreLibraries.Diagnostics.Validate.NotNull``1(System.Nullable{``0},System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+      <argument>value:null =&gt; halt</argument>
+      <argument>True</argument>
+    </attribute>
+    <parameter name="objectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

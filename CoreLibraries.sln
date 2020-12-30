@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58F23904-BB4B-4847-A808-7198351B9E3C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		ResourcesGenerator.tt = ResourcesGenerator.tt
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStandard", "NetStandard", "{36EA8569-1581-4BCD-A635-131293DFECA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{1F1D45E5-5ED9-42DA-B1F8-16C14D1A4055}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{2D67B9C4-7ADF-41BF-9C86-A0105D7EC31D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{631DA8E2-16AF-4008-A9AB-AB833139ECDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E5056A2D-D953-4B1E-BA1C-712B3253A3BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5D180655-1D1B-4724-A62D-737F0A4E2875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{D056D691-BF85-4983-96B8-9470619272A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{83819E70-A35F-4BCC-A9A5-D17189830581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionaries", "Dictionaries", "{44AE0CFE-A71F-4DD1-9C26-A270920C6A47}"
+	ProjectSection(SolutionItems) = preProject
+		Dictionaries\Ru.aff = Dictionaries\Ru.aff
+		Dictionaries\Ru.dic = Dictionaries\Ru.dic
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLibraries.Diagnostics", "NetStandard\Sources\CoreLibraries.Diagnostics\CoreLibraries.Diagnostics.csproj", "{5642D5B0-85CB-4EEA-851D-4ABFA2F9698C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLibraries.Diagnostics.Tests", "NetStandard\Tests\CoreLibraries.Diagnostics.Tests\CoreLibraries.Diagnostics.Tests.csproj", "{735ED1C3-D45C-426B-A7A6-6A91C60180A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5642D5B0-85CB-4EEA-851D-4ABFA2F9698C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5642D5B0-85CB-4EEA-851D-4ABFA2F9698C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5642D5B0-85CB-4EEA-851D-4ABFA2F9698C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5642D5B0-85CB-4EEA-851D-4ABFA2F9698C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735ED1C3-D45C-426B-A7A6-6A91C60180A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735ED1C3-D45C-426B-A7A6-6A91C60180A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735ED1C3-D45C-426B-A7A6-6A91C60180A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735ED1C3-D45C-426B-A7A6-6A91C60180A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D67B9C4-7ADF-41BF-9C86-A0105D7EC31D} = {1F1D45E5-5ED9-42DA-B1F8-16C14D1A4055}
+		{631DA8E2-16AF-4008-A9AB-AB833139ECDE} = {36EA8569-1581-4BCD-A635-131293DFECA1}
+		{E5056A2D-D953-4B1E-BA1C-712B3253A3BD} = {36EA8569-1581-4BCD-A635-131293DFECA1}
+		{5D180655-1D1B-4724-A62D-737F0A4E2875} = {1F1D45E5-5ED9-42DA-B1F8-16C14D1A4055}
+		{D056D691-BF85-4983-96B8-9470619272A5} = {1F1D45E5-5ED9-42DA-B1F8-16C14D1A4055}
+		{83819E70-A35F-4BCC-A9A5-D17189830581} = {36EA8569-1581-4BCD-A635-131293DFECA1}
+		{44AE0CFE-A71F-4DD1-9C26-A270920C6A47} = {58F23904-BB4B-4847-A808-7198351B9E3C}
+		{5642D5B0-85CB-4EEA-851D-4ABFA2F9698C} = {631DA8E2-16AF-4008-A9AB-AB833139ECDE}
+		{735ED1C3-D45C-426B-A7A6-6A91C60180A3} = {E5056A2D-D953-4B1E-BA1C-712B3253A3BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {368312AF-AC81-452A-B202-C1258EFBAE9C}
+	EndGlobalSection
+EndGlobal
