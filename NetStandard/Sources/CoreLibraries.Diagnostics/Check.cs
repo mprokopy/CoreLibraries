@@ -60,7 +60,7 @@ namespace CoreLibraries.Diagnostics
         /// <para xml:lang="ru">Возникает когда <paramref name="argumentValue"/> <see langword="null"/> и <paramref name="argumentName"/> пустая строка или строка, состоящая только из символов-разделителей.</para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("argumentValue:null => halt", true)]
+        [ContractAnnotation("argumentValue:null => halt")]
         public static T NotNull<T>([NoEnumeration] T argumentValue, [InvokerParameterName][NotNull] string argumentName)
             where T : class
         {
@@ -114,7 +114,7 @@ namespace CoreLibraries.Diagnostics
         /// <para xml:lang="ru">Возникает когда <paramref name="argumentValue"/> <see langword="null"/> и <paramref name="argumentName"/> пустая строка или строка, состоящая только из символов-разделителей.</para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("argumentValue:null => halt", true)]
+        [ContractAnnotation("argumentValue:null => halt")]
         public static T? NotNull<T>(T? argumentValue, [InvokerParameterName][NotNull] string argumentName)
             where T : struct
         {
@@ -188,7 +188,7 @@ namespace CoreLibraries.Diagnostics
         /// </para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("argumentPropertyValue:null => halt", true)]
+        [ContractAnnotation("argumentPropertyValue:null => halt")]
         public static T NotNull<T>([NoEnumeration] T argumentPropertyValue, [InvokerParameterName][NotNull] string argumentName, [NotNull] string argumentPropertyName)
             where T : class
         {
@@ -264,7 +264,7 @@ namespace CoreLibraries.Diagnostics
         /// </para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("argumentPropertyValue:null => halt", true)]
+        [ContractAnnotation("argumentPropertyValue:null => halt")]
         public static T? NotNull<T>(T? argumentPropertyValue, [InvokerParameterName][NotNull] string argumentName, [NotNull] string argumentPropertyName)
             where T : struct
         {
@@ -328,7 +328,7 @@ namespace CoreLibraries.Diagnostics
         /// </para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("argumentValue:null => halt", true)]
+        [ContractAnnotation("argumentValue:null => halt")]
         public static string NotEmpty(string argumentValue, [InvokerParameterName][NotNull] string argumentName)
         {
             if (argumentValue is null)
@@ -423,7 +423,7 @@ namespace CoreLibraries.Diagnostics
         /// </para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("argumentPropertyValue:null => halt", true)]
+        [ContractAnnotation("argumentPropertyValue:null => halt")]
         public static string NotEmpty(string argumentPropertyValue, [InvokerParameterName][NotNull] string argumentName, [NotNull] string argumentPropertyName)
         {
             if (argumentPropertyValue is null)

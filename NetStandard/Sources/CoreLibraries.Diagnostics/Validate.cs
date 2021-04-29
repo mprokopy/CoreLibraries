@@ -58,7 +58,7 @@ namespace CoreLibraries.Diagnostics
         /// <para xml:lang="ru">Возникает когда <paramref name="value"/> <see langword="null"/> и <paramref name="objectName"/> пустая строка или строка, состоящая только из символов-разделителей.</para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("value:null => halt", true)]
+        [ContractAnnotation("value:null => halt")]
         public static T NotNull<T>([NoEnumeration] T value, [NotNull] string objectName)
             where T : class
         {
@@ -110,7 +110,7 @@ namespace CoreLibraries.Diagnostics
         /// <para xml:lang="ru">Возникает когда <paramref name="value"/> <see langword="null"/> и <paramref name="objectName"/> пустая строка или строка, состоящая только из символов-разделителей.</para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("value:null => halt", true)]
+        [ContractAnnotation("value:null => halt")]
         public static T? NotNull<T>(T? value, [NotNull] string objectName)
             where T : struct
         {
@@ -186,7 +186,7 @@ namespace CoreLibraries.Diagnostics
         /// </para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("value:null => halt", true)]
+        [ContractAnnotation("value:null => halt")]
         public static T NotNull<T>([NoEnumeration] T value, [NotNull] string objectName, [NotNull] string propertyName)
             where T : class
         {
@@ -264,7 +264,7 @@ namespace CoreLibraries.Diagnostics
         /// </para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("value:null => halt", true)]
+        [ContractAnnotation("value:null => halt")]
         public static T? NotNull<T>(T? value, [NotNull] string objectName, [NotNull] string propertyName)
             where T : struct
         {
@@ -330,7 +330,7 @@ namespace CoreLibraries.Diagnostics
         /// </para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("value:null => halt", true)]
+        [ContractAnnotation("value:null => halt")]
         public static string NotEmpty(string value, [NotNull] string objectName)
         {
             if (value is null)
@@ -429,7 +429,7 @@ namespace CoreLibraries.Diagnostics
         /// </para>
         /// </exception>
         [NotNull]
-        [ContractAnnotation("value:null => halt", true)]
+        [ContractAnnotation("value:null => halt")]
         public static string NotEmpty(string value, [NotNull] string objectName, [NotNull] string propertyName)
         {
             if (value is null)

@@ -5,9 +5,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Check.NotEmpty(System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>argumentValue:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="argumentName">
       <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
@@ -16,9 +15,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Check.NotEmpty(System.String,System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>argumentPropertyValue:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="argumentName">
       <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
@@ -30,9 +28,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Check.NotNull``1(``0,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>argumentValue:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="argumentValue">
       <attribute ctor="M:JetBrains.Annotations.NoEnumerationAttribute.#ctor" />
@@ -44,9 +41,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Check.NotNull``1(``0,System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>argumentPropertyValue:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="argumentPropertyValue">
       <attribute ctor="M:JetBrains.Annotations.NoEnumerationAttribute.#ctor" />
@@ -61,9 +57,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Check.NotNull``1(System.Nullable{``0},System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>argumentValue:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="argumentName">
       <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
@@ -72,9 +67,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Check.NotNull``1(System.Nullable{``0},System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>argumentPropertyValue:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="argumentName">
       <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
@@ -89,9 +83,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Validate.NotEmpty(System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>value:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="objectName">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -99,9 +92,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Validate.NotEmpty(System.String,System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>value:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="objectName">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -112,9 +104,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Validate.NotNull``1(``0,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>value:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="value">
       <attribute ctor="M:JetBrains.Annotations.NoEnumerationAttribute.#ctor" />
@@ -125,9 +116,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Validate.NotNull``1(``0,System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>value:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="value">
       <attribute ctor="M:JetBrains.Annotations.NoEnumerationAttribute.#ctor" />
@@ -141,9 +131,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Validate.NotNull``1(System.Nullable{``0},System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>value:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="objectName">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -151,9 +140,8 @@
   </member>
   <member name="M:CoreLibraries.Diagnostics.Validate.NotNull``1(System.Nullable{``0},System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>value:null =&gt; halt</argument>
-      <argument>True</argument>
     </attribute>
     <parameter name="objectName">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />

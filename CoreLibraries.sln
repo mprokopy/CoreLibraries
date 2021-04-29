@@ -36,6 +36,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLibraries.Diagnostics",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLibraries.Diagnostics.Tests", "NetStandard\Tests\CoreLibraries.Diagnostics.Tests\CoreLibraries.Diagnostics.Tests.csproj", "{735ED1C3-D45C-426B-A7A6-6A91C60180A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9BA449C3-AA48-4A04-9175-959235B1F670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{4DD70856-DB40-4F7F-AC8B-4AE04CDBFCE0}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +71,8 @@ Global
 		{44AE0CFE-A71F-4DD1-9C26-A270920C6A47} = {58F23904-BB4B-4847-A808-7198351B9E3C}
 		{5642D5B0-85CB-4EEA-851D-4ABFA2F9698C} = {631DA8E2-16AF-4008-A9AB-AB833139ECDE}
 		{735ED1C3-D45C-426B-A7A6-6A91C60180A3} = {E5056A2D-D953-4B1E-BA1C-712B3253A3BD}
+		{9BA449C3-AA48-4A04-9175-959235B1F670} = {58F23904-BB4B-4847-A808-7198351B9E3C}
+		{4DD70856-DB40-4F7F-AC8B-4AE04CDBFCE0} = {9BA449C3-AA48-4A04-9175-959235B1F670}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {368312AF-AC81-452A-B202-C1258EFBAE9C}
